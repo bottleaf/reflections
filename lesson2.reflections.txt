@@ -13,6 +13,8 @@ change?
 
 The staging area is used to choose what files to be commited.  By manually selecting files a user is compelled to be aware of what files where changed.  This awareness helps the user connect the code changes to a single logical change.
 
+Even when adding just 1 feature by 1 user, branching allows the master branch to always have a working, production-quality version that is easy to which to return.  
+
 #What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
