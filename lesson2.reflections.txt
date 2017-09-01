@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+# What happens when you initialize a repository? Why do you need to do it?
 The directory becomes a git repository.  A .git fie is made.  It needs to be done because
 A regular directory doesn’t have git functions.
 
@@ -8,8 +8,10 @@ What value do you think it offers?
 It allows logical seperation since often one logical change often doesn't
 involve all the files
 
-How can you use the staging area to make sure you have one commit per logical
+# How can you use the staging area to make sure you have one commit per logical
 change?
+
+The staging area is used to choose what files to be commited.  By manually selecting files a user is compelled to be aware of what files where changed.  This awareness helps the user connect the code changes to a single logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
