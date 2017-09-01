@@ -13,8 +13,11 @@ change?
 
 The staging area is used to choose what files to be commited.  By manually selecting files a user is compelled to be aware of what files where changed.  This awareness helps the user connect the code changes to a single logical change.
 
-What are some situations when branches would be helpful in keeping your history
+#What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+When developing two features simultaneously or two people working on different parts of the project, a organized history would be helpful.
+This could track changes and progress independently.  The branches would help with the eventual merging of the changes to the master branch.
 
 How do the diagrams help you visualize the branch structure?
 
