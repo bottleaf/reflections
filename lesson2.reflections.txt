@@ -3,7 +3,10 @@ The directory becomes a git repository.  A .git fie is made.  It needs to be don
 A regular directory doesn’t have git functions.
 
 How is the staging area different from the working directory and the repository?
+-the staging area only includes files that are going to be commited
 What value do you think it offers?
+It allows logical seperation since often one logical change often doesn't
+involve all the files
 
 How can you use the staging area to make sure you have one commit per logical
 change?
