@@ -13,15 +13,15 @@ change?
 
 The staging area is used to choose what files to be commited.  By manually selecting files a user is compelled to be aware of what files where changed.  This awareness helps the user connect the code changes to a single logical change.
 
-Even when adding just 1 feature by 1 user, branching allows the master branch to always have a working, production-quality version that is easy to which to return.  
-
 #What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 When developing two features simultaneously or two people working on different parts of the project, a organized history would be helpful.
 This could track changes and progress independently.  The branches would help with the eventual merging of the changes to the master branch.
+	Even when adding just 1 feature by 1 user, branching allows the master branch to always have a working, production-quality version that is easy to which to return.  
 
 How do the diagrams help you visualize the branch structure?
+It easier to visualize the position of commits, HEAD and branches with a visual diagram.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
