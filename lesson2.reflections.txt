@@ -20,11 +20,17 @@ When developing two features simultaneously or two people working on different p
 This could track changes and progress independently.  The branches would help with the eventual merging of the changes to the master branch.
 	Even when adding just 1 feature by 1 user, branching allows the master branch to always have a working, production-quality version that is easy to which to return.  
 
-How do the diagrams help you visualize the branch structure?
+#How do the diagrams help you visualize the branch structure?
 It easier to visualize the position of commits, HEAD and branches with a visual diagram.
 
-What is the result of merging two branches together? Why do we represent it in
+#What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+All the commits from both branches are now in one branch
+They are sequenced by time updated. The diagram representation shows parent commit relationships which
+is not shown in the log.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+#What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic merging eliminates alot of work since most changes are independent of each other and don't
+have merge conflicts.  While Git attempts to detect all merge conflicts, some might be accidentally resolved by git automatically.  This wouldn't happen with entirely manual merges.  Manuage merges would give the user greater awareness of changes of the code and their mutual dependencies.
