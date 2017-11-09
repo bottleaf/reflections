@@ -1,3 +1,8 @@
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit is being able to merge and update the remote when there is no internet access.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We would send files to each other through email and keep track of the "master" file by file labeling.  Different iterations would just have 1,2,3.. after file name.
+It would be harder to keep track of all these files and stay organized.  This method might be easier since it doesn't require learning git commands or knowing how
+github works.
