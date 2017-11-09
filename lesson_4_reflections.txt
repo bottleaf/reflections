@@ -1,4 +1,4 @@
-What is the benefit of having a copy of the last known state of the remote stored locally?
+] What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit is being able to merge and update the remote when there is no internet access.
 
@@ -6,3 +6,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 We would send files to each other through email and keep track of the "master" file by file labeling.  Different iterations would just have 1,2,3.. after file name.
 It would be harder to keep track of all these files and stay organized.  This method might be easier since it doesn't require learning git commands or knowing how
 github works.
+
+] When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I want to make changes in a large scale-project that involves other contributors.  Working on my own seperate branch allows me to "keep" changes to myself (on my own branch) until I'm ready to show everyone else (with a pull request).  Once approved, my changes become part of master.  This process keeps master clean and always functional.  This prevents others from branching off of master and working on a bad copy.
+
+On my own, I might want to use seperate branches if I'm simultaenously working on different features;  I can 
+track progress in dependently.
